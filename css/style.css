@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+html{ 
+    background-image: url("../assets/plano_de_fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+html, body{
+    display: inline-block;
+    text-align: center;
+    height:100%;
+    align-items: center;
+  
+    
+   
+}
+header{
+    height:200px;
+    padding:20px 0;
+}
+.center{ 
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+.logo{
+    text-align: left;
+    width:40%;
+    opacity: 0.8;
+}
+
+.menu{
+    font-weight: bold;
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu ul li{
+    margin-right: 5%;
+    display: inline-block;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: palevioletred;
+    text-decoration: none; 
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 23px;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+   
+}
+.imgcoffe img{
+    right: -1050px;
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    right: -300px;
+    border: 100px;
+    opacity: 0.8;
+}
+.video{
+    border: 10px solid rgba(255, 192, 203, 0.534);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.texto{
+    margin-top: 100px;
+    max-width: 1280px;
+}
+.texto h1{
+    font-size: 50px;
+    text-align: left;
+}
+.texto p{
+    max-width: 80%;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.botão{
+    margin-top: 20px;
+    text-align: left;
+}
+.botão input{
+    font-weight: bold;
+    color: azure;
+    cursor: pointer;
+    background-color: #d8046e;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.botão input:hover{
+    opacity: 0.7;
+    
+}
+
+

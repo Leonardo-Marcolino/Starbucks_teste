@@ -6,6 +6,9 @@
 
 }
 html{ 
+    max-width: 2280px;
+    min-width:100%;
+    width: 100%;
     background-image: url("../assets/plano_de_fundo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -17,7 +20,7 @@ html, body{
     text-align: center;
     height:100%;
     align-items: center;
-  
+
     
    
 }
@@ -113,7 +116,49 @@ section.sobre{
 }
 .botão input:hover{
     opacity: 0.7;
+}
+@media screen and (max-width: 580px){
+   
+    .logo{
+        width: 10%;
+    }
+    .menu{
+        width: 90%;
+    }
+    .menu ul li{
+       
+        display: inline;
+    }
+    .menu ul li a{
+        font-size: 12px;
+    }
+    .menu ul li a:hover{
     
+        font-size: 18px;
+    }
+    .texto{
+        margin-top: 50px;
+        max-width: 580px;
+    }
+    .texto h1{
+        font-size: 30px;
+    }
+    .texto p{
+        font-size: 14px;
+        max-width: 80%;
+        margin-top: 20px;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    .imgcoffe img{
+        width: 220px;
+    }
+    .video iframe{
+        width: 380px;
+        height: 280px;
+
+    }
 }
 
 

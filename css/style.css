@@ -6,7 +6,7 @@
 
 }
 html{ 
-    max-width: 2280px;
+    padding: 0 2%;
     min-width:100%;
     width: 100%;
     background-image: url("../assets/plano_de_fundo.jpg");
@@ -18,7 +18,7 @@ html{
 html, body{
     display: inline-block;
     text-align: center;
-    height:100%;
+     
     align-items: center;
 
     
@@ -72,11 +72,11 @@ section.sobre{
    
 }
 .imgcoffe img{
-    right: -1050px;
+    right: 1050px;
     position: absolute;
     width: 600px;
     height: 700px;
-    right: -300px;
+    right: 300px;
     border: 100px;
     opacity: 0.8;
 }
@@ -96,7 +96,7 @@ section.sobre{
     text-align: left;
 }
 .texto p{
-    max-width: 80%;
+    max-width: 50%;
     margin-top: 20px;
     text-align: left;
     font-weight: bold;
